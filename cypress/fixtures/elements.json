@@ -1,0 +1,13 @@
+{
+  
+  "campoBarraPesquisa": "[data-testid='input-search']",
+  "produto": "celular",
+  "botaoPesquisa": "[data-testid='search-submit']",
+  "produtoId": ":nth-child(1) > [data-testid='product-card-container'] > .sc-eQVdPn > [data-testid='image']",
+  "botaoAdicionarAoCarrinho": ":nth-child(2) > [data-testid='bagButton']",
+  "botaoIrParaCarrinho": "[data-testid='summary-continue-btn']",
+  "ExcluirItemCarrinho": ".BasketItem-delete-label",
+  "AlterarQuantidadeCarrinho": ".BasketItemProduct-quantity-dropdown"
+  
+  
+}
