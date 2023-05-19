@@ -1,0 +1,27 @@
+Descrição:
+
+Testes automatizados realizados com a ferramenta Cypress e linguagem JS, com enfoque em percorrer as funcionalidades de busca por produto, adicionar item ao carrinho e excluir item do carrinho do website do portal do Magazine Luiza.
+
+
+Pré condições:
+
+1- Será necessário possuir o cypress e o Node JS para que os testes possam ser executados;
+
+2- Caso possua problemas com a dependência do cypress fill comand, execute o comando npm i -D cypress-fill-command na Raiz da pasta do projeto;
+
+
+Resultados esperados:
+
+Case 01 - Validar se é possível acessar o portal do Magazine Luiza;
+Case 02 - Validar se é possível realizar a busca por um produto;
+Case 03 - Validar se é possível validar o retorno da busca do produto (cy wait status code 200);
+Case 04 - Validar se é possível escolher um produto na lista;
+Case 05 - Validar se é possível adicionar um item da lista ao carrinho;
+Case 06 - Validar se é possível validar o produto no carrinho;
+Case 07 - Validar se é possível excluir item do carrinho
+Case 08 - Validar se é possível alterar a quantidade do item através do botão de dropdown no carrinho;
+
+
+Status + Ambiente
+
+Testes automatizados executados com sucesso, https://www.magazineluiza.com.br/
